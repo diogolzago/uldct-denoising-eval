@@ -233,21 +233,6 @@ range 400) over full 512x512 test slices, with these exceptions:
 - `unet.py`, `corediff.py` (EMA weights) and `fgdm.py` evaluate the weights of
   the final epoch instead of `<model>_<dose>_best.pt`.
 
-## Citation
-
-```bibtex
-@inproceedings{zago2026uldct,
-  title     = {Evaluation of Denoising Architectures on a Reconstructed
-               Ultra-Low-Dose {CT} Dataset},
-  author    = {Zago, Diogo L. and Contassot, Ra{\'i}ssa X. and Ravazio, Rafaela C.
-               and Ughini, Augusto O. and Kupssinsk{\"u}, Lucas S.
-               and Barros, Rodrigo C.},
-  booktitle = {Anais do Encontro Nacional de Intelig{\^e}ncia Artificial e
-               Computacional (ENIAC)},
-  year      = {2026}
-}
-```
-
 ## Acknowledgments
 
 This study was supported by the Center for Innovation and Artificial

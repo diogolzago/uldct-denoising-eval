@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Tooling
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Data (AAPM-Mayo data is licensed, never commit it)
+data/
+*.npy
+*.IMA
+*.dcm
+
+# Run outputs and caches created by the scripts
+outputs/
+cache/
+fd_npy_cache/
+pretrained/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

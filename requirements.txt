@@ -1,0 +1,14 @@
+# Tested with torch 2.14, torchvision 0.29, numpy 2.5, scipy 1.18,
+# matplotlib 3.11, pydicom 3.0 (Python 3.12).
+torch>=2.0
+torchvision
+numpy
+scipy
+matplotlib
+pydicom
+tqdm
+
+# Optional
+opencv-python-headless  # FGDM: bilateral-filtered edge maps (NumPy fallback otherwise)
+einops                  # NEED: DGDiff refinement stage
+# torch-radon           # NEED: fan-beam projector of the paper (native fallback otherwise)
